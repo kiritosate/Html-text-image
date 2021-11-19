@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.image-div{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    max-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-div-text{
+    font-weight: bold;
+    font-size: 0.7rem;
+    background-image: url("image.webp");
+    filter:saturate(-20);
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    --webkit-text-fill-color: rgb(255, 255, 255);
+    --webkit-background-clip: text;
+    height: 100vh;
+    word-break: break-all;
+    line-height: .8;
+}
